@@ -1,3 +1,4 @@
+music.setVolume(255)
 music.playTone(277, music.beat(BeatFraction.Whole))
 basic.pause(200)
 music.playTone(311, music.beat(BeatFraction.Whole))
@@ -36,6 +37,3 @@ music.playTone(370, music.beat(BeatFraction.Quarter))
 music.playTone(349, music.beat(BeatFraction.Quarter))
 music.playTone(311, music.beat(BeatFraction.Quarter))
 music.playTone(277, music.beat(BeatFraction.Quarter))
-basic.forever(function () {
-    music.setVolume(255)
-})
